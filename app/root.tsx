@@ -68,7 +68,6 @@ export default function App() {
               id="search-form"
               onChange={(event) => {
                 const isFirstSearch = q === null;
-                console.log({ isFirstSearch });
                 submit(event.currentTarget, {
                   replace: !isFirstSearch,
                 });
